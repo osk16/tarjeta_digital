@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Cruz - Servicios Técnicos y Seguridad</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 420px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: white;
+            margin: -30px -20px 20px -20px;
+            padding: 35px 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 0.5px;
+        }
+        .subtitle {
+            font-size: 14px;
+            opacity: 0.95;
+            margin-top: 8px;
+            font-weight: 300;
+        }
+        .services {
+            text-align: left;
+            margin: 20px 0;
+            background: #f8fafc;
+            padding: 18px;
+            border-radius: 10px;
+            border-left: 4px solid #3b82f6;
+        }
+        .services h3 {
+            margin-top: 0;
+            font-size: 16px;
+            color: #1e3a8a;
+        }
+        .services ul {
+            margin: 0;
+            padding-left: 20px;
+            font-size: 14px;
+            color: #475569;
+        }
+        .services li {
+            margin-bottom: 8px;
+        }
+        .btn-whatsapp {
+            display: block;
+            background: #25d366;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin: 20px 0 10px 0;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+            transition: background 0.3s;
+        }
+        .btn-whatsapp:hover {
+            background: #1ebe5d;
+        }
+        .contact-info {
+            font-size: 14px;
+            color: #64748b;
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        .contact-info a {
+            color: #1e3a8a;
+            text-decoration: none;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>ROBERTO CRUZ</h1>
+            <div class="subtitle">Soporte Técnico y Seguridad Electrónica</div>
+        </div>
+        
+        <div class="services">
+            <h3>Servicios Profesionales</h3>
+            <ul>
+                <li>Mantenimiento preventivo y correctivo de equipos de cómputo.</li>
+                <li>Instalación y configuración de cámaras de seguridad (CCTV).</li>
+            </ul>
+        </div>
+
+        <div class="contact-info">
+            <p>📞 <strong>Teléfonos:</strong><br><a href="tel:5525776619">55 2577 6619</a> / <a href="tel:5510538635">55 1053 8635</a></p>
+            <p>✉️ <strong>Correo:</strong><br><a href="mailto:osk16dar@gmail.com">osk16dar@gmail.com</a></p>
+        </div>
+
+        <a href="https://wa.me/525525776619?text=Hola%20Roberto,%20vi%20tu%20tarjeta%20digital%20y%20me%20interesan%20tus%20servicios" class="btn-whatsapp" target="_blank">💬 Contactar por WhatsApp</a>
+    </div>
+</body>
+</html>
